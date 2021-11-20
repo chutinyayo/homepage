@@ -1,0 +1,40 @@
+*https://fontawesome.com/v5.15/icons?d=gallery&p=2
+{
+    font-family:verdana,geneva,tahoma,sans-serif;
+}
+body{
+    dispalay:flex;
+    flex-direction;
+    height: 100vh;
+}
+main{
+    flex-grow:1;
+}
+nav{
+    Background-color:lightblue;
+    dispalay: flex;
+    flex-direction: row;
+    align-items: ccentre;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    border: 1px solid black;
+    transition: all ease-out is;
+}
+nav,a :hover{
+    Background-color: white;
+    color: black;
+}
+header{
+    Background-color: lightpink;
+    dispalay: flex;
+    flex-direction:row-reverse;
+    align-itemss: centre;
+}
